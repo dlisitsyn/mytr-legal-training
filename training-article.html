@@ -1,0 +1,112 @@
+<link ref="stylesheet" href="training-article.css" type="text/css"></link>
+
+<div>
+  <h1 class="product">${properties.trainingArticleHeading}</h1>
+</div>
+<div data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+  <clientlib data-sly-call="${clientLib.all @ categories=['product-training-article']}" data-sly-unwrap />
+</div>
+
+
+<div class="training-intro col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+  <h4 class="product">${properties.trainingArticleSubHeading}</h4>
+
+  <div class="article-content-container row">
+
+    <div class="col-lg-11 col-lg-offset-1 col-md-11 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+      <!--<sly data-sly-resource="${'content' @ resourceType='wcm/foundation/components/parsys'}" /> -->
+
+      <div class="col-lg-11 col-lg-offset-1 col-md-11 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+
+
+
+
+
+        <div class="training-task">
+          <div>
+
+
+            <link rel="stylesheet" href="/apps/mytr-legal/components/content/training/training-task/clientlibs.90f322b608c259525145ebcb5ee94c04.css" type="text/css">
+
+
+
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div class="training-task-heading">Set Jurisdictions</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+              <div class="row">
+                <span class="task-circle"><span>01</span></span>
+                <div class="hidden-sm hidden-xs">
+                  <div class="row">
+                    |
+                  </div>
+                  <div class="row">
+                    |
+                  </div>
+                  <div class="row">
+                    |
+                  </div>
+                  <div class="row">
+                    |
+                  </div>
+                  <div class="row">
+                    |
+                  </div>
+                  <div class="row">
+                    |
+                  </div>
+                  <div class="row">
+                    |
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <span class="training-task-title">Browse</span>
+              <p class="training-task-description">You can see Jurisdiction at the right of the search bar, next to the button with magnifying glass icon. All of the search results will be related to only these jurisdiction.</p>
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <img class="training-task-image" src="/content/dam/mytr-legal/training/Westlaw%20Jurisdiction%20Mock_1.png">
+            </div>
+          </div>
+        </div>
+
+        <!--
+                  <div class="training-button">
+                    <h3> Great, you've completed this task! </h3>
+                    <button class="button">Task Completed</button>
+                  </div>
+        -->
+
+      </div>
+      <cq data-path="/content/mytrlegal/en/training/westlaw-training12/jcr:content/Home/training_article/content/training_task" data-config="{&quot;path&quot;:&quot;/content/mytrlegal/en/training/westlaw-training12/jcr:content/Home/training_article/content/training_task&quot;,&quot;slingPath&quot;:&quot;/content/mytrlegal/en/training/westlaw-training12/jcr:content/Home/training_article/content/training_task.html&quot;,&quot;dialog&quot;:&quot;/apps/mytr-legal/components/content/training/training-task/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/apps/mytr-legal/components/content/training/training-task/_cq_dialog.html/content/mytrlegal/en/training/westlaw-training12/jcr:content/Home/training_article/content/training_task&quot;,&quot;dialogClassic&quot;:&quot;/apps/mytr-legal/components/content/training/training-task/dialog&quot;,&quot;type&quot;:&quot;mytr-legal/components/content/training/training-task&quot;,&quot;csp&quot;:&quot;mytr-page|base-page|page/Home|parsys/training-article/content|parsys/training-task&quot;,&quot;editConfig&quot;:{&quot;inlineEditing&quot;:CQ.wcm.EditBase.INLINE_MODE_NEVER}}"></cq>
+    </div>
+    <!--cq{"decorated":true,"type":"mytr-legal/components/content/training/training-task","path":"/content/mytrlegal/en/training/westlaw-training12/jcr:content/Home/training_article/content/training_task","selectors":null,"servlet":"Script /apps/mytr-legal/components/content/training/training-task/training-task.html","totalTime":3,"selfTime":3}-->
+
+
+
+
+    <div class="new section">
+
+      <cq data-path="/content/mytrlegal/en/training/westlaw-training12/jcr:content/Home/training_article/content/*" data-config="{&quot;path&quot;:&quot;/content/mytrlegal/en/training/westlaw-training12/jcr:content/Home/training_article/content/*&quot;,&quot;slingPath&quot;:&quot;/content/mytrlegal/en/training/westlaw-training12/jcr:content/Home/training_article/content/*.html&quot;,&quot;type&quot;:&quot;wcm/foundation/components/parsys/newpar&quot;,&quot;csp&quot;:&quot;mytr-page|base-page|page/Home|parsys/training-article/content|parsys/newpar&quot;,&quot;editConfig&quot;:{&quot;actions&quot;:[CQ.wcm.EditBase.INSERT],&quot;disableTargeting&quot;:true}}"></cq>
+      <!--cq{"decorated":true,"type":"wcm/foundation/components/parsys/newpar","path":"/content/mytrlegal/en/training/westlaw-training12/jcr:content/Home/training_article/content/*","selectors":null,"servlet":"Script /libs/wcm/foundation/components/parsys/newpar/newpar.html","totalTime":1,"selfTime":1}-->
+    </div>
+
+
+    <cq data-path="/content/mytrlegal/en/training/westlaw-training12/jcr:content/Home/training_article/content" data-config="{&quot;path&quot;:&quot;/content/mytrlegal/en/training/westlaw-training12/jcr:content/Home/training_article/content&quot;,&quot;slingPath&quot;:&quot;/content/mytrlegal/en/training/westlaw-training12/jcr:content/Home/training_article/content.html&quot;,&quot;designDialog&quot;:&quot;/libs/wcm/foundation/components/parsys/design_dialog&quot;,&quot;designDialogLoadingMode&quot;:&quot;inline&quot;,&quot;designDialogLayout&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/libs/cq/gui/components/authoring/compat/content/dialog.html?dialog=%2Flibs%2Fwcm%2Ffoundation%2Fcomponents%2Fparsys%2Fdesign_dialog&amp;content=%2Fetc%2Fdesigns%2Fdefault%2Fjcr%3Acontent%2Fmytr-page%2FHome%2Ftraining-article%2Fcontent&quot;,&quot;designDialogClassic&quot;:&quot;/libs/wcm/foundation/components/parsys/design_dialog&quot;,&quot;type&quot;:&quot;wcm/foundation/components/parsys&quot;,&quot;csp&quot;:&quot;mytr-page|base-page|page/Home|parsys/training-article/content|parsys&quot;,&quot;isContainer&quot;:true}"></cq>
+    <!--cq{"decorated":true,"type":"wcm/foundation/components/parsys","path":"/content/mytrlegal/en/training/westlaw-training12/jcr:content/Home/training_article/content","selectors":null,"servlet":"Script /libs/wcm/foundation/components/parsys/parsys.html","totalTime":10,"selfTime":6}-->
+
+  </div>
+</div>
+</div>
+<!--<div data-sly-use.training="category.js" class="topic">Topic: ${training.category}</div>-->
+
+</div>

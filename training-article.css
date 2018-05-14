@@ -1,0 +1,77 @@
+.training-article {
+	width: 100%;
+    background-color: #fff;
+}
+
+
+.training-intro {
+    background-color: #AFAFAF;
+}
+
+.training-article .topic {
+    display: flex;
+    height: auto;
+    width: 100%;
+    color: #FD8023;
+    font-family: Knowledge2017;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+.training-task-heading {
+    color: #4D4D4D;
+    font-family: Knowledge2017;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.task-circle {
+    background-color: #FD8023;
+    border-radius: 50%;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    margin: 15px 0 0 0;
+}
+
+.task-circle span {
+    color: #FFFFFF;
+    font-family: Knowledge2017;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.task-number {
+    height: 16px;
+    width: 15px;
+    color: #FFFFFF;
+    font-family: Knowledge2017;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.training-task-title {
+    height: 30px;
+    width: 237px;
+    color: #4D4D4D;
+    font-family: Knowledge2017;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.training-task-description {
+    color: #4D4D4D;
+    font-family: Knowledge2017;
+    font-size: 15px;
+    line-height: 24px;
+}
