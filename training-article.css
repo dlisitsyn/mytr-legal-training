@@ -3,7 +3,6 @@
     background-color: #fff;
 }
 
-
 .training-intro {
     background-color: #AFAFAF;
 }
@@ -35,7 +34,41 @@
     height: 40px;
     width: 40px;
     position: relative;
-    margin: 15px 0 0 0;
+    margin: 0;
+}
+
+.task-circle:before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    bottom: 100%;
+    width: 30px;
+    height: 1000px; /* make this value big enough to cover all possible heights of an article step block */
+    border-left: dashed 1px grey;
+}
+
+.task-circle:after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 100%;
+    width: 30px;
+    height: 1000px; /* make this value big enough to cover all possible heights of an article step block */
+    border-left: dashed 1px grey;
+}
+
+/* .first-training-task-step class is needed to make sure a dotted line only appears BELOW the circle */
+.first-training-task-step .task-circle:before {
+    border-left-style: solid;
+    /* set this to match colour of the background */
+    border-color: #AFAFAF;
+}
+
+/* .last-training-task-step class is needed to make sure a dotted line only appears ABOVE the circle */
+.last-training-task-step .task-circle:after {
+    border-left-style: solid;
+    /* set this to match colour of the background */
+    border-color: #AFAFAF;
 }
 
 .task-circle span {
@@ -74,4 +107,17 @@
     font-family: Knowledge2017;
     font-size: 15px;
     line-height: 24px;
+}
+
+.training-task-image {
+    width: 250px;
+}
+
+.training-task-step {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.training-task-title {
+    line-height: 40px;
 }
